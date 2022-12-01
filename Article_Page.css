@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+.btns {
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #33730e;
+}
+
+.btns:hover {
+    font-size: 120%;
+    color: white;
+}
+
+.headings {
+    color: #33730e;
+    padding: 10px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+h4 {
+    color: #33730e;
+    font-weight: normal;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px 25px;
+    color: #555454;
+    cursor: pointer;
+}
+
+.col-4 {
+    /* to devide into 4 */
+    flex-basis: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.col-4 img {
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    max-width: 300px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.col-4:hover {
+    transform: translateY(-7px);
+}

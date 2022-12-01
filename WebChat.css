@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root {
+    --main-color: #33730e;
+    --white: #ffffff;
+    --border: .1rem solid rgba(255, 255, 255, .3);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body {
+    background-color: #000a01;
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    text-align: center;
+    /* margin-top: 75px; */
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#messages {
+    padding-bottom: 30%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 5px 5px 20px rgba(115, 113, 113, 0.219);
+    border-radius: 10px;
+    font-weight: 500;
+    color: #000000;
+    width: 40%;
+}
+
+li span {
+    font-style: normal;
+    font-weight: bolder;
+    color: #33730e;
+}
+
+#chat {
+    width: 80%;
+    margin: auto;
+}
+
+#message-form {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b7b5b9;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+}
+
+button {
+    width: 25%;
+    height: 38px;
+    background-color: #33730e;
+}
+
+.sent {
+    text-align: right;
+    background-color: #33730e;
+    margin-left: 50%;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sent span {
+    margin-left: 5px;
+    color: #ffffff;
+}
